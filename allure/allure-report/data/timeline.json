@@ -1,0 +1,56 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "My first test",
+    "uid" : "79ecb932f93fc10",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1689155127013,
+      "stop" : 1689155145556,
+      "duration" : 18543
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "Chrome 114.0.0.0 / Windows 10" ]
+  }, {
+    "name" : "My first test",
+    "uid" : "812cdae21d44bf89",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1689155386786,
+      "stop" : 1689155400124,
+      "duration" : 13338
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : true,
+    "parameters" : [ "Chrome 114.0.0.0 / Windows 10" ]
+  }, {
+    "name" : "My first test",
+    "uid" : "de9914b9544f2881",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1689155296387,
+      "stop" : 1689155297440,
+      "duration" : 1053
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "Chrome 114.0.0.0 / Windows 10" ]
+  } ]
+}

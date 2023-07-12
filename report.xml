@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite name="TestCafe Tests: Chrome 114.0.0.0 / Windows 10" tests="1" failures="0" skipped="0" errors="0" time="9.081" timestamp="Mon, 10 Jul 2023 09:03:52 GMT" >
+  <testcase classname="Getting Started" file="D:\Testcafe\test\login.js" name="My first test" time="4.108">
+  </testcase>
+</testsuite>

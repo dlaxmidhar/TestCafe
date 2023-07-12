@@ -1,0 +1,26 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Getting Started",
+    "children" : [ {
+      "name" : "My first test",
+      "uid" : "812cdae21d44bf89",
+      "parentUid" : "435d88378eaf64e3f560b28f534e5e37",
+      "status" : "passed",
+      "time" : {
+        "start" : 1689155386786,
+        "stop" : 1689155400124,
+        "duration" : 13338
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : true,
+      "parameters" : [ "Chrome 114.0.0.0 / Windows 10" ]
+    } ],
+    "uid" : "435d88378eaf64e3f560b28f534e5e37"
+  } ]
+}

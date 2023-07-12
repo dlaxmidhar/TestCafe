@@ -1,0 +1,48 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1689155296387' stop='1689155296441'>
+    <name>Getting Started</name>
+    <title>Getting Started</title>
+    <test-cases>
+        <test-case start='1689155296387' status='failed' stop='1689155297440'>
+            <name>My first test</name>
+            <title>My first test</title>
+            <labels>
+                <label name='severity' value='undefined'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='User Agent' value='Chrome 114.0.0.0 / Windows 10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test has been broken</message>
+                <stack-trace>Failed to load the page at "https://devexpress.github.io/testcafe/example".
+                Increase the value of the "pageRequestTimeout" variable, enable the "retryTestPages" option, or use quarantine mode to perform additional attempts to execute this test.
+                You can find troubleshooting information for this issue at "https://go.devexpress.com/TestCafe_FAQ_ARequestHasFailed.aspx".
+                
+                Error details:
+                Error: Failed to find a DNS-record for the resource at "https://devexpress.github.io/testcafe/example"
+                
+                Browser: Chrome 114.0.0.0 / Windows 10
+                
+                    3 |fixture('Getting Started')
+                    4 |    .page('https://devexpress.github.io/testcafe/example');
+                    5 |
+                    6 |test('My first test', async t => {
+                    7 |    await t
+                 >  8 |        .setTestSpeed(0.1) // use to change the speed of our test 
+                    9 |        .typeText('#developer-name', 'John Smith')
+                   10 |        .click('#submit-button')
+                   11 |        .expect(Selector('#article-header').innerText).eql('Thank you, John Smith!');
+                   12 |});
+                
+                   at &lt;anonymous> (D:\Testcafe\test\login.js:8:10)
+                   at asyncGeneratorStep (D:\Testcafe\test\login.js:1:37)
+                   at _next (D:\Testcafe\test\login.js:1:37)
+                   at &lt;anonymous> (D:\Testcafe\test\login.js:1:37)
+                   at &lt;anonymous> (D:\Testcafe\test\login.js:1:37)
+                   at &lt;anonymous> (D:\Testcafe\test\login.js:12:2)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

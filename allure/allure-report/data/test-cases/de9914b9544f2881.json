@@ -1,0 +1,56 @@
+{
+  "uid" : "de9914b9544f2881",
+  "name" : "My first test",
+  "fullName" : "Getting Started.My first test",
+  "historyId" : "237fd086ca67a5e9906b407a880c5762",
+  "time" : {
+    "start" : 1689155296387,
+    "stop" : 1689155297440,
+    "duration" : 1053
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "This test has been broken",
+  "statusTrace" : "Failed to load the page at \"https://devexpress.github.io/testcafe/example\".\n                Increase the value of the \"pageRequestTimeout\" variable, enable the \"retryTestPages\" option, or use quarantine mode to perform additional attempts to execute this test.\n                You can find troubleshooting information for this issue at \"https://go.devexpress.com/TestCafe_FAQ_ARequestHasFailed.aspx\".\n                \n                Error details:\n                Error: Failed to find a DNS-record for the resource at \"https://devexpress.github.io/testcafe/example\"\n                \n                Browser: Chrome 114.0.0.0 / Windows 10\n                \n                    3 |fixture('Getting Started')\n                    4 |    .page('https://devexpress.github.io/testcafe/example');\n                    5 |\n                    6 |test('My first test', async t => {\n                    7 |    await t\n                 >  8 |        .setTestSpeed(0.1) // use to change the speed of our test \n                    9 |        .typeText('#developer-name', 'John Smith')\n                   10 |        .click('#submit-button')\n                   11 |        .expect(Selector('#article-header').innerText).eql('Thank you, John Smith!');\n                   12 |});\n                \n                   at <anonymous> (D:\\Testcafe\\test\\login.js:8:10)\n                   at asyncGeneratorStep (D:\\Testcafe\\test\\login.js:1:37)\n                   at _next (D:\\Testcafe\\test\\login.js:1:37)\n                   at <anonymous> (D:\\Testcafe\\test\\login.js:1:37)\n                   at <anonymous> (D:\\Testcafe\\test\\login.js:1:37)\n                   at <anonymous> (D:\\Testcafe\\test\\login.js:12:2)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "Getting Started"
+  }, {
+    "name" : "testClass",
+    "value" : "Getting Started"
+  }, {
+    "name" : "testMethod",
+    "value" : "My first test"
+  }, {
+    "name" : "package",
+    "value" : "Getting Started"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 114.0.0.0 / Windows 10"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "de9914b9544f2881.json",
+  "parameterValues" : [ "Chrome 114.0.0.0 / Windows 10" ]
+}

@@ -1,0 +1,76 @@
+{
+  "uid" : "812cdae21d44bf89",
+  "name" : "My first test",
+  "fullName" : "Getting Started.My first test",
+  "historyId" : "237fd086ca67a5e9906b407a880c5762",
+  "time" : {
+    "start" : 1689155386786,
+    "stop" : 1689155400124,
+    "duration" : 13338
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "Getting Started"
+  }, {
+    "name" : "testClass",
+    "value" : "Getting Started"
+  }, {
+    "name" : "testMethod",
+    "value" : "My first test"
+  }, {
+    "name" : "package",
+    "value" : "Getting Started"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 114.0.0.0 / Windows 10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "de9914b9544f2881",
+      "status" : "failed",
+      "statusDetails" : "This test has been broken",
+      "time" : {
+        "start" : 1689155296387,
+        "stop" : 1689155297440,
+        "duration" : 1053
+      }
+    }, {
+      "uid" : "79ecb932f93fc10",
+      "status" : "passed",
+      "statusDetails" : "This test has been passed.",
+      "time" : {
+        "start" : 1689155127013,
+        "stop" : 1689155145556,
+        "duration" : 18543
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "812cdae21d44bf89.json",
+  "parameterValues" : [ "Chrome 114.0.0.0 / Windows 10" ]
+}

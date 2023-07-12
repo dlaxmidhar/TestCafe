@@ -1,0 +1,29 @@
+{
+  "startTime": "2023-07-10T09:01:05.293Z",
+  "endTime": "2023-07-10T09:01:10.148Z",
+  "userAgents": [
+    "Chrome 114.0.0.0 / Windows 10"
+  ],
+  "passed": 1,
+  "total": 1,
+  "skipped": 0,
+  "fixtures": [
+    {
+      "name": "Getting Started",
+      "path": "D:\\Testcafe\\test\\login.js",
+      "meta": {},
+      "tests": [
+        {
+          "name": "My first test",
+          "meta": {},
+          "errs": [],
+          "durationMs": 3398,
+          "unstable": false,
+          "screenshotPath": null,
+          "skipped": false
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}
